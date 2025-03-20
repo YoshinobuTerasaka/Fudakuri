@@ -1,0 +1,535 @@
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+html {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: rgb(210, 240, 160);
+  color: #000;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+}
+
+#menu {
+  text-align: center;
+}
+
+#main {
+  text-align: center;
+}
+
+input.btn_admin {
+  position: absolute;
+  right: 0%;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(217, 255, 0);
+
+  border-color: rgb(96, 155, 0);
+  border-width: 2px;
+  border-radius: 7px;
+  width: 80px;
+  height: 35px;
+  padding: 0px;
+  margin-top: 0px;
+  margin-right: 40px;
+  font-size: 11pt;
+  font-weight: normal;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+input.btn_batu {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(217, 255, 0);
+
+  border-color: rgb(96, 155, 0);
+  border-width: 2px;
+  border-radius: 2px;
+  width: 48px;
+  height: 48px;
+  font-size: 24pt;
+  font-weight: normal;
+  display: inline-block;
+  padding-right: 36px;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+input.btn_kumi {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(0, 0, 0);
+  background-color: rgb(0, 238, 255);
+
+  border-color: rgb(0, 132, 155);
+  border-width: 2px;
+  border-radius: 7px;
+  width: 150px;
+  height: 50px;
+  font-size: 16pt;
+  font-weight: normal;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+table.admin_title1 {
+  width: 90%;
+  margin-top: 2%;
+  margin-left: 2.5%;
+  margin-right: 7.5%;
+  line-height: 150%;
+  font-size: 24pt;
+  text-align: left;
+}
+
+table.admin_title2 {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+td.admin_title3 {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  font-size: 32pt;
+  text-align: right;
+  height: 68px;
+}
+
+td.admin_title4 {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  font-size: 32pt;
+  text-align: left;
+}
+
+input.btn_setting {
+  position: absolute;
+  left: 0%;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(204, 153, 0);
+
+  border-color: rgb(155, 88, 0);
+  border-width: 2px;
+  border-radius: 10px;
+  width: 90px;
+  height: 45px;
+  padding: 0px;
+  -webkit-box-shadow: 3px 3px 0 rgb(155, 88, 0);
+  box-shadow: 3px 3px 0 rgb(155, 88, 0);
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-size: 16pt;
+  font-weight: normal;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.0em;
+}
+
+input.btn_setting[disabled] {
+  pointer-events: none;
+}
+
+input.btn_setting:hover {
+  color: rgb(255, 255, 255);
+  background: rgb(204, 153, 0);
+  -webkit-transform: translate(3px, 3px);
+  transform: translate(3px, 3px);
+  -webkit-box-shadow: 0 0 0 rgb(155, 88, 0);
+  box-shadow: 0 0 0 rgb(155, 88, 0);
+}
+
+input.btn_start {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: #fff;
+  background-color: blue;
+  border-color: blue;
+  border-width: 0ch;
+  border-radius: 50%;
+  width: 100px;
+  height: 45px;
+  padding: 0;
+  -webkit-box-shadow: 0 5px 0 #0300a1;
+  box-shadow: 0 5px 0 #0300a1;
+  font-size: 16pt;
+  font-weight: normal;
+  position: relative;
+  left: -2%;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.0em;
+}
+
+input.btn_start[disabled] {
+  pointer-events: none;
+}
+
+input.btn_start:hover {
+  color: #fff;
+  background: blue;
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  -webkit-box-shadow: 0 2px 0 #0300a1;
+  box-shadow: 0 2px 0 #0300a1;
+}
+
+input.btn_stop {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(100, 100, 100);
+  background-color: rgb(156, 100, 100);
+  border-color: red;
+  border-width: 0ch;
+  border-radius: 50%;
+  width: 100px;
+  height: 45px;
+  padding: 0;
+  -webkit-box-shadow: 0 5px 0 #a10000;
+  box-shadow: 0 5px 0 #a10000;
+
+  font-size: 14pt;
+  font-weight: normal;
+  position: relative;
+  left: 2%;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+input.btn_stop[disabled] {
+  pointer-events: none;
+}
+
+input.btn_stop:hover {
+
+  color: #fff;
+  background: red;
+  -webkit-transform: translate(0, 3px);
+  transform: translate(0, 3px);
+  -webkit-box-shadow: 0 2px 0 #a10000;
+  box-shadow: 0 2px 0 #a10000;
+}
+
+input.btn_fileopen {
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: #fff;
+  background-color: gray;
+  border-color: rgb(90, 90, 90);
+  border-width: 2pt;
+  border-radius: 10pt;
+  width: 100px;
+  height: 45px;
+  -webkit-box-shadow: 3px 3px 0 rgb(60, 60, 60);
+  box-shadow: 3px 3px 0 rgb(60, 60, 60);
+
+  font-size: 16pt;
+  font-weight: normal;
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+input.btn_fileopen:hover {
+  color: #fff;
+  background: gray;
+  -webkit-transform: translate(3px, 3px);
+  transform: translate(3px, 3px);
+  -webkit-box-shadow: 0 0 0 rgb(60, 60, 60);
+  box-shadow: 0 0 0 rgb(60, 60, 60);
+}
+
+#fuda {
+  position: relative;
+  margin-top: 30px;
+  z-index: 1;
+  height: 400px;
+  transform: rotate(0deg);
+}
+
+#back {
+  width: 450px;
+  height: 600px;
+  margin-top: -590px;
+  z-index: 0;
+}
+
+#counter {
+  font-size: 12pt;
+  position: relative;
+  margin-top: 10px;
+  z-index: 3;
+}
+
+#before {
+  font-size: 16pt;
+  position: relative;
+  margin-top: 30px;
+  z-index: 4;
+}
+
+#setting {
+  /* visibility: hidden; */
+  display: none;
+  z-index: 5;
+  position: absolute;
+  left: 25px;
+  top: 75px;
+  height: auto;
+  width: auto;
+  background-color: rgb(204, 153, 0);
+  text-align: left;
+  border-radius: 20px;
+  border-color: rgb(155, 88, 0);
+  border: thick double rgb(155, 88, 0);
+}
+
+#admin {
+  /* visibility: hidden; */
+  display: none;
+  z-index: 6;
+  position: absolute;
+  left: 2.5%;
+  top: 70px;
+  height: 93%;
+  width: 95%;
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  border-radius: 20px;
+  border-color: rgb(26, 110, 0);
+  border: thick double rgb(26, 110, 0);
+}
+
+p.set_title0 {
+  font-size: 16pt;
+  position: relative;
+  left: 0px;
+  font-weight: bold;
+  margin: 0;
+  padding-top: 20px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+}
+
+p.set_title1 {
+  font-size: 14pt;
+  position: relative;
+  left: 20px;
+  font-weight: bold;
+  margin: 5px;
+  padding-left: 15px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: 290px;
+  background-color: rgb(155, 88, 0);
+}
+
+p.set_title2 {
+  font-size: 12pt;
+  position: relative;
+  left: 35px;
+  margin: 0;
+  padding: 5px;
+}
+
+p.set_title3 {
+  font-size: 12pt;
+  position: relative;
+  left: 60px;
+  margin: 0;
+  padding-top: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  padding-right: 100px;
+}
+
+input.btn_radio {
+  accent-color: rgb(155, 88, 0);
+  height: 14px;
+  width: 14px;
+}
+
+input.btn_check {
+  accent-color: rgb(155, 88, 0);
+  height: 14px;
+  width: 14px;
+}
+
+input.btn_close {
+  position: relative;
+  left: 120px;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(255, 255, 255);
+  background-color: rgb(155, 88, 0);
+
+  border-color: rgb(155, 88, 0);
+  border-width: 2px;
+  border-radius: 10px;
+  width: 100px;
+  height: 45px;
+  -webkit-box-shadow: 2px 2px 0 rgb(128, 72, 0);
+  box-shadow: 2px 2px 0 rgb(128, 72, 0);
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 25px;
+  font-size: 16pt;
+  font-weight: normal;
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+  letter-spacing: 0.0em;
+}
+
+input.btn_close:hover {
+  color: white;
+  background: rgb(155, 88, 0);
+  -webkit-transform: translate(2px, 2px);
+  transform: translate(2px, 2px);
+  -webkit-box-shadow: 0 0 0 rgb(128, 72, 0);
+  box-shadow: 0 0 0 rgb(128, 72, 0);
+}
+
+input.btn_before,
+input.btn_after {
+  position: relative;
+  left: 0%;
+  z-index: 2;
+  font-family: "HG丸ｺﾞｼｯｸM-PRO", sans-serif;
+  color: rgb(0, 50, 0);
+  background-color: rgb(146, 208, 80);
+
+  border-color: rgb(0, 50, 0);
+  border-width: 2px;
+  border-radius: 10px;
+  width: 135px;
+  height: 50px;
+  -webkit-box-shadow: 2px 2px 0 rgb(0, 50, 0);
+  box-shadow: 2px 2px 0 rgb(0, 50, 0);
+  margin-top: 0px;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-size: 16pt;
+  font-weight: normal;
+
+  display: inline-block;
+
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+  text-align: center;
+  vertical-align: middle;
+  text-decoration: none;
+}
+
+input.btn_before[disabled] {
+  pointer-events: none;
+}
+
+input.btn_after[disabled] {
+  pointer-events: none;
+}
+
+input.btn_before:hover,
+input.btn_after:hover {
+  color: rgb(0, 50, 0);
+  background: rgb(146, 208, 80);
+  -webkit-transform: translate(3px, 3px);
+  transform: translate(3px, 3px);
+  -webkit-box-shadow: 0 0 0 rgb(0, 50, 0);
+  box-shadow: 0 0 0 rgb(0, 50, 0);
+}
+
+#time {
+  text-align: center;
+  font-size: 16pt;
+}
+
+.attendance_check {
+  height: 24px;
+  width: 24px;
+}
