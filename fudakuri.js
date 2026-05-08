@@ -121,7 +121,7 @@ fuda[1][0] = fuda_org[1][0];
 let lastcheck = 0;
 let islastcheck = false;
 
-const memberList = ["伊東 奏", "鵜野 七緒", "岡 希美", "尾上 莉穂", "籠谷 千絵", "山中 紗瑛", "中村 真菜", "杉田 結", "荒城 梨奈", "野地 彩加", "穴見 理世", "磯野 花衣", "早井 寧花", "尾上 颯亮", "磯野 永康", "鵜野 耀大", "遠山 一花", "中村 奏一郎", "穴見 圭", "早井 凛花", "籠谷 幸加"];
+const memberList = ["穴見 理世", "磯野 花衣", "早井 寧花", "磯野 永康", "深海 輝", "行方 紬", "穴見 圭", "早井 凛花", "籠谷 幸加", "杉田 直紀", "木村 成実" ];
 
 function change_counter(count) {
   document.getElementById("counter").textContent = `${count}/${max}`;
@@ -407,7 +407,7 @@ function admin() {
   for (let i = 0; i < memberList.length; i++) {
     document.getElementsByClassName("member")[i].textContent = memberList[i];
   }
-  const pw = "0523320376";
+  const pw = "523320376";
   let password = window.prompt("パスワードを入力して下さい。", "");
   while (password !== pw && password !== null) {
     password = window.prompt("パスワードが間違っています。正しいパスワードを入力して下さい。", "");
